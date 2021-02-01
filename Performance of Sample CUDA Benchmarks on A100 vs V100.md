@@ -1,4 +1,4 @@
-# Performance of Sample CUDA Benchmarks on A100 vs V100
+# Performance of Sample CUDA Benchmarks on Nvidia Ampere A100 vs Tesla V100
 
 Authors: Dingwen Tao (dingwen.tao@wsu.edu) and Jiannan Tian (jiannan.tian@wsu.edu)
 
