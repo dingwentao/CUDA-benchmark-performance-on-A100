@@ -2,16 +2,21 @@
 
 Authors: Dingwen Tao (dingwen.tao@wsu.edu) and Jiannan Tian (jiannan.tian@wsu.edu)
 
-## Evaluation platform
+## Experimental Platforms
+
 JLSE testbeds (https://www.jlse.anl.gov/hardware-under-development/) at Argonne National Laboratory:
 
-- V100 node: 2x Intel Xeon Gold 6152 CPUs 22c 2.1Ghz + 4 Tesla V100-SXM2-32GB interconnected with NVLinks
+- V100 server: 2x Intel Xeon Gold 6152 CPUs 22c 2.1Ghz + 4 Tesla V100-SXM2-32GB interconnected with NVLinks
+- A100 server: 1x AMD 7532 32c 2.4Ghz + 2  A100-PCIE-40GB interconnected with PCIe
 
-- A100 node: 1x AMD 7532 32c 2.4Ghz + 2  A100-PCIE-40GB interconnected with PCIe
+## Evaluation Benchmarks
+
+- 16 benchmark programs, A100 wins 6 programs, V100 wins 7 programs, V100 is N/A in 3 programs
+- Performance improvement of A100 over V100 on these CUDA samples are not as much as Figure 5 shown in [A100 white paper](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-ampere-architecture-whitepaper.pdf)
 
 ## Basic Operations
 
-1. reduction - CUDA Parallel Reduction - **
+1. reduction - CUDA Parallel Reduction - *A100 win*
 
 ----------------------------------------A100----------------------------------------
 
